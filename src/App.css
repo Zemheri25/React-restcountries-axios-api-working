@@ -1,0 +1,80 @@
+body {
+  background-image: linear-gradient(120deg,#d4b757, #d6795f);
+}
+
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 2rem;
+  width: 20rem;
+  height: 10rem;
+
+}
+
+.mycountry {
+  border: 2px solid bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  width: 20rem;
+  height: 27rem;
+}
+
+.countrydiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input {
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: gray;
+}
+
+.button {
+  font-size: 2rem;
+  color: white;
+  background-image: linear-gradient(120deg,#d4b757, #d6795f);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px;
+}
+
+.h1 {
+  color: white;
+}
+
+.flags {
+  width: 80%;
+  border-radius: 10px;
+  height: 10rem;
+}
+
+.footer {
+  background-image: linear-gradient(120deg,#d4b757, #d6795f);
+  border: 5px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  color: white;
+  margin-top: 3rem;
+}
+
+
